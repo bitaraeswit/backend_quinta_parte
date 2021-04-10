@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contato</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body >
+  <table>
+    <h1>Contato</h1>
+    <form method="POST" action="/auth/signup">
+      <tr>
+        <td colspan=2>Nome <br> <input type=text name='name' size=100%></td>
+      </tr>
+
+      <tr>
+        <td colspan=2>Email <br> <input type=text name='email' size=100%></td>
+      </tr>
+
+	  <tr>
+        <td colspan=2>Senha <br> <input type=text name='senha' size=100%></td>
+      </tr>
+
+    
+      <tr>
+        <td>
+          <label for="story">Comentario:</label><br>
+          <textarea id="story" name="comentario" rows="3" cols="100"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan=1>
+          <center><input class="button" type="submit" value="Enviar"> <input class="button" type="reset" value="Apagar">
+          </center>
+        </td>
+      </tr>
+    </form>
+  </table>
+</body>
+
+</html>
